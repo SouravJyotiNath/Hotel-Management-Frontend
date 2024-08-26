@@ -2,7 +2,7 @@ import axios from "axios"
 
 export default class ApiService {
 
-    static BASE_URL = "http://13.49.226.134:4040"
+    static BASE_URL = "http://localhost:4041"
 
     static getHeader() {
         const token = localStorage.getItem("token");
